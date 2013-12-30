@@ -1,0 +1,60 @@
+.shoveler {
+    position: relative;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 12px 12px 12px 12px;
+    margin-bottom: 15px;
+}
+.shoveler-heading {
+	 margin-bottom: 15px;
+}
+.shoveler-pagination {
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+.a-text-separator {
+	background-color: #DDDDDD;
+    display: inline-block;
+    height: 14px;
+    line-height: 0;
+    margin: -2px 0.67375em 0;
+    vertical-align: middle;
+    width: 1px;
+}
+a.back-button,
+a.next-button {
+    top: 100px;
+    position: absolute;
+}
+.auiTestSprite.s_shvlBack {
+    background-position: 0 0;
+    height: 39px;
+    width: 36px;
+}
+.auiTestSprite.s_shvlNext {
+    background-position: -40px 0;
+    height: 39px;
+    width: 36px;
+}
+.auiTestSprite {
+	background: url("http://g-ecx.images-amazon.com/images/G/01/nav2/images/sprite-carousel-btns-stars2._V376388587_.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+}
+.shoveler ul {
+  /* height: 318px;*/
+}
+.shoveler li {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width : 160px;
+	float: left;
+	list-style: none outside none;
+}
+.shoveler-content {
+	/*margin: 0 45px;*/
+}
+.shoveler-button-wrapper {
+	overflow: auto;
+}
