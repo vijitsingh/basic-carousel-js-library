@@ -1,3 +1,7 @@
+/*
+    Description : A default pagination strategy. Clicking on left/right button result in showing the next/previous set of cards. 
+*/
+
 define([
     "jQuery"
 ], function($){

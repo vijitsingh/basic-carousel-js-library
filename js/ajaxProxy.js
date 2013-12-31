@@ -1,3 +1,11 @@
+/*
+    Description : This is a module which simulates the behavior of client-side ajax calls. For this project, I did NOT had a server-side
+	              implmentation, so I have used proxy-pattern here to simulate the behavior. This module supports the same .ajax() api of 
+				  jQuery and with a delay of 3 seconds return the content. Any other module could depend on this ajax-proxy. If the server-side
+				  support is available, this proxy would simply delegate to $.ajax() method. The clients of this module do NOT need to change at
+				  all in that case. 
+*/
+
 define([
 	"jquery"
 ], function($){

@@ -1,3 +1,7 @@
+/*
+    Description : A sub-view which controls the nav-bar of the carousel.
+*/
+
 define([
 	"jquery"
 ], function($){

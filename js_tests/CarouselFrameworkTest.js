@@ -41,15 +41,3 @@ require([
         //TEST 3 : try creating a carousel with same parameters as already present. should fail.
         carouselFramework.createCarousel(initData2);
 });
-
-/*
-- move the strings out
-- comments
-- remove carouselState class
-- copy to github folder + push the code to github
-- readme.md : 
--- patterns used
--- purpose of the exercise
--- what could have been done more
--- how to test/use
-*/

@@ -1,3 +1,12 @@
+/*
+     Description : This is the model in the model-widget paradigm. A new instance of CarouselModel backs an instance of Carousel. 
+	               It performs the following person (probably a good candidate to modularize further) : 
+				   1) Maintains the carouselState : what page is shown, no. of carousels being shown et al. 
+				   2) Interacts with the pagintionStrategy, when the user clicks on left/right button, Carousel calls the appropriate method
+				      in this module. Here it delegates the interaction to the paginationStrategy to get the new Carousel state. 
+				   3) Also interacts with the ajax-interface to fetch the data for a new page, and parses that data. 
+*/
+
 define([
 	"jquery",
 	"paginationStrategyFramework",

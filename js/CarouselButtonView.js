@@ -1,3 +1,8 @@
+/*
+    Description : A sub-view which takes care of functioning of the left and right button for the carousel. It calls the handler of the parent-view
+	              when the button is clicked and if the button is enabled. 
+*/
+
 define([
 	"jquery"
 ], function($){

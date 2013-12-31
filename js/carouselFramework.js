@@ -1,3 +1,9 @@
+/*
+    Description : This the interface for the library. Any client which wishes to show a carousel could depend on this module and call the 
+	              createCarousel() method of this module to create a new instance. It performs a basic validation to make sure a new request 
+				  does NOT ask to create a carousel with similar mandatory parameters as one which already exist on the page. 
+*/
+
 define([
     "jquery",
     "Carousel"

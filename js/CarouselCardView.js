@@ -1,3 +1,7 @@
+/*
+    Description : A sub-view which is created for each card shown on the Carousel. 
+*/
+
 define([
 	"jquery"
 ], function($){
