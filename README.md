@@ -12,7 +12,9 @@ Purpose of this exercise
    <br>
 NOTE: The purpose of this exercise was mainly exploring various javascript aspects. So I wanted to devote minimal time on styling the carousel, so 
       for css and html I have just copied the code from www.amazon.com/dp/B0013E9SOG <br>
-DISCLAIMER : Please note that all the images/css/html which I have used is publicly available on the amazon website. I have NOT used any internal information. 
+DISCLAIMER : 
+1) Please note that all the images/css/html which I have used is publicly available on the amazon website. I have NOT used any internal information. 
+2) I have used templating library by John Resig with minor modifications for this project. 
 
 How to use the library
 ======================
