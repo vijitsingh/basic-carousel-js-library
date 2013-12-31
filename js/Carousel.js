@@ -1,8 +1,9 @@
 /*
-    Description : I have followed the Model-Widget paradigm. This module is the Widget-part. Each time the carouselFramework creates a new
-	              carousel on the page, a new instance of this module is created. For each view it follows a composite-kind of pattern, and
-				  delegates the responsibility to initialize the view and handle user-interactions to each sub-views. It is also responsible
-				  for interacting with the CarouselModel. 
+    Description : I have followed the Model-Widget paradigm. This module is the Widget-part. 
+	Each time the carouselFramework creates a new carousel on the page, a new instance of 
+	this module is created. For each view it follows a composite-kind of pattern, and
+	delegates the responsibility to initialize the view and handle user-interactions 
+	to each sub-views. It is also responsible for interacting with the CarouselModel. 
 */
 
 define([
